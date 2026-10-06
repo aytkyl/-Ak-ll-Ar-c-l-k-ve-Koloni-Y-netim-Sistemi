@@ -1,0 +1,12 @@
+{
+  "name": "Kovanım - Akıllı Arıcılık ve Koloni Yönetim Sistemi",
+  "description": "Hava durumu, arı uçuş indeksi, koloni takibi, bal verimi ve finans, bakım planlayıcı ve 5 ciltlik kapsamlı arı bakım kitaplığı sunan arıcılık asistanı.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

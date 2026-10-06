@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Suppress any injected Remix / AI Studio badge elements */
+[class*="remix" i],
+[id*="remix" i],
+[data-testid*="remix" i],
+[aria-label*="remix" i] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
